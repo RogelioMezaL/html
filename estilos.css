@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background-color: rgb(143, 143, 143) ;
+}
+body{
+    
+    width: 750px;
+    height: auto;
+    background-color: aqua;
+    margin: auto;
+    border-radius: 20px 20px 0 0;
+    margin-top: 15px;
+}
+header{
+    height: 140px;
+    width: 750px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px 25px 0 0;
+}
+
+#logo{
+    height: 120px;
+    width: 230;   
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+#buscador{
+    width: 250px;
+    height: 125px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+}
+nav{
+    height: 50px;
+    background-color: aquamarine;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+}
+nav a{
+    color: forestgreen;
+    text-decoration: none;
+    padding: 25px;
+    line-height: 50px;
+    font-family: Bernard MT Condensed;
+}
+main{
+    height: auto;
+    width: 750px;
+    background-color: black;
+}
+#izquierdo{
+    height: auto;
+    width: 150px;
+    background-color: orange;
+    float: left;
+}
+
+article{
+    width: 500px;
+    height: auto;
+    background-color: darkkhaki;
+    float: left;
+}
+#derecho{
+    height: auto;
+    width: 100px;
+    background-color: orange;
+    float: right;
+}
+footer{
+    height: 50;
+    
+}
+
+.contenedor{
+    align-content: left;
+    justify-content: left;
+    display: grid;
+    height: 12px;
+}
+.btn:hover{
+    background-position: right;
+}
+.btn{
+    border: 3px solid rgb(100,100,100,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 300px;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: aqua;
+    background-size: 300%;
+    transition: 0.6%;
+}
+.btn1{
+    background-image: linear-gradient(to left, #00B7DA, #5856da, #00B7DA);
+}
+.btn2{
+    background-image: linear-gradient(to left, #0b6847, #0b911c, #0b6847);
+}
+.formulario > div {
+    padding: 20px;
+    border-bottom: 1pz solid #ccc;
+}
+.formulario input[type="peque"]{
+    display: none;
+}
